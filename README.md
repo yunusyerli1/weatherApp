@@ -19,44 +19,36 @@
 
 
 ## Info
-In this project, I worked on twitch replica website using react redux.  I tried to make a website like Twitch. First, you can sign in via Google Authentication. If you sign-in, you can create, delete, edit a channel and start streaming via OBS.For streaming, you need to get id number of the channel and put the id as stream key in OBS (Settings-Stream). 
+In this project, I made a simple weather finder website by using react. This is a simple app that you only enter city and country info into the input and press "Get Weather" button. Whenever the button is pressed, it is going to get connected to www.openweathermap.org to get the weather information. 
 
 
 
 ## Built With
 
 - React
-- Redux
 - JavaScript (ES6)
 - Npm
 - Create-React-App
-- Json-Server
-- Rtmp Server
-- Google API
+- Openweathermap API
 
-### ✨ [Live Demo](https://streamyappyerli.herokuapp.com/)
+### ✨ [Live Demo](https://havanibul.herokuapp.com/)
 
 ## Usage
 
 > Clone the repository to your local machine
 
 ```sh
-$ git clone https://github.com/Yunusyerli1/streamy.git
+$ git clone https://github.com/Yunusyerli1/weatherApp.git
 ```
 
 > cd into the directory, install dependencies, build and start 
 
 ```sh
-$ cd client
-$ npm run start
-$ cd api
-$ npm run start
-$ cd rmtpserver
+$ cd weather-app
 $ npm run start
 ```
 
 > Open the project [http://localhost:3000](http://localhost:3000) to view it in the browser.
-> Open the database [http://localhost:3001/streams](http://localhost:3001/streams) to view it in the browser.
 
 
 ## Authors
@@ -68,9 +60,9 @@ $ npm run start
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Yunusyerli1/streamy/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Yunusyerli1/weatherApp/issues).
 
-1. Fork it (https://github.com/Yunusyerli1/streamy.git/fork)
+1. Fork it (https://github.com/Yunusyerli1/weatherApp.git/fork)
 2. Create your working branch (git checkout -b [choose-a-name])
 3. Commit your changes (git commit -am 'what this commit will fix/add/improve')
 4. Push to the branch (git push origin [chosen-name])
